@@ -6,3 +6,6 @@
 #
 # All rights reserved - Do Not Redistribute
 #
+
+include_recipe 'octopus::install_tentacle'
+include_recipe 'octopus::register_tentacle'
